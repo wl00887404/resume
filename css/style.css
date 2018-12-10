@@ -1,5 +1,5 @@
 body {
-  background-image: url(https://www.getpapercss.com/img/geometry2.png);
+  background-image: url(https://s3-ap-northeast-1.amazonaws.com/wl00887404/resume/geometry2.png);
   padding: 1em 0;
 }
 @media (max-width: 993px) {
@@ -19,7 +19,7 @@ h2 {
 
 .with-heart::after {
   content: "";
-  background-image: url(http://today-car.herokuapp.com/img/like.svg);
+  background-image: url(https://s3-ap-northeast-1.amazonaws.com/wl00887404/resume/like.svg);
   width: 0.8em;
   height: 0.8em;
   display: inline-block;
