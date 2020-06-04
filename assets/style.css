@@ -6,6 +6,10 @@ body {
   padding: 1em;
 }
 
+.page-break {
+  margin: 0 !important;
+}
+
 h1,
 h2,
 h3 {
@@ -23,14 +27,14 @@ a {
 }
 
 ul li:not(:last-child) {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.6em;
 }
 
 .container {
   max-width: 996px;
   margin: 0 auto;
   text-align: justify;
-  padding: 3em 0;
+  padding: 4em 0;
 }
 
 .container > *:not(:last-child) {
@@ -54,48 +58,70 @@ ul li:not(:last-child) {
   font-size: 1.2em;
 }
 
+.introduction .two-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
 .introduction .links {
   display: flex;
   list-style: none;
   padding: 0;
+  margin-top: 0;
+  margin-bottom: 0.6em;
 }
 
-.introduction .links > :not(:last-child) {
+.introduction .links li {
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+
+.introduction .links > *:not(:last-child) {
   margin-right: 1em;
 }
 
 .introduction .links img {
   width: 1.2em;
   height: 1.2em;
+  display: block;
+}
+
+.introduction .links img:not(:last-child) {
+  margin-right: 0.5em;
+}
+
+.introduction .links span {
+  font-size: 0.9em;
 }
 
 .introduction h1 {
   font-size: 1.4em;
   margin: 0.6em 0;
+  line-height: 1;
 }
 
-.with-heart::after {
-  content: '';
-  width: 1em;
-  height: 1em;
-  display: inline-block;
-  background: url(./like.svg) center/0.8em 0.8em no-repeat;
-  margin-left: 0.4em;
-  vertical-align: text-bottom;
+.introduction p {
+  line-height: 1.6;
+  margin: 0;
 }
 
 .skills {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
   font-size: 1.2em;
-  grid-gap: 0.3em 0.6em;
+  justify-content: space-between;
 }
 
-.skills div {
+.skills .skill {
+  width: 32%;
+}
+
+.skills .skill div {
   white-space: nowrap;
+  padding: 0.25em 0;
 }
 
-.skills .header {
+.skills .skill .header {
   font-weight: bold;
   border-bottom: 1px solid gray;
   padding-bottom: 0.2em;
@@ -103,21 +129,35 @@ ul li:not(:last-child) {
   text-align: center;
 }
 
-.jobs {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  align-items: center;
-  grid-gap: 0 1em;
+.jobs .flex-center {
+  margin-top: -0.5em;
 }
 
 .jobs img {
-  width: 7em;
-  height: 7em;
-  display: block;
+  width: 5.5em;
+  height: 5.5em;
+  margin-right: 1em;
 }
 
 .jobs h3 {
   margin-bottom: 0.5em;
+}
+
+.jobs .description {
+  margin-top: 0;
+  padding: 0 2em;
+  margin-bottom: 2em;
+}
+
+.jobs .description blockquote {
+  margin: 0;
+  line-height: 1.6;
+  background-color: hsl(19, 96%, 94%);
+  color: black;
+  border-left: hsl(19, 96%, 60%) 10px solid;
+  padding: 1em 2em;
+  padding-left: 2em;
+  border-radius: 2px;
 }
 
 .community div:not(:last-child),
