@@ -265,12 +265,12 @@ h2 {
     }
 }
 
-.hindden:not(.icon) {
+.hidden:not(.icon) {
     // display: none;
     opacity: 0!important;
 }
 
-.hindden.icon {
+.hidden.icon {
     display: none;
     z-index: -1;
 }

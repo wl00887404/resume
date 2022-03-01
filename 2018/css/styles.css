@@ -253,12 +253,12 @@ h2 {
 	color: black;
 }
 
-.hindden:not(.icon) {
+.hidden:not(.icon) {
 	opacity: 0 !important;
 	z-index: -1;
 }
 
-.hindden.icon {
+.hidden.icon {
 	display: none;
 }
 .forAllInformation {
