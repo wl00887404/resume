@@ -1,0 +1,17 @@
+:root {
+  font-size: 14px;
+}
+
+body {
+  padding: 0 2.5em;
+}
+
+.page-break {
+  display: block;
+  page-break-before: always;
+  padding-top: 3em;
+}
+
+.container {
+  padding: 3em 0;
+}
