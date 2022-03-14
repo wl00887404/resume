@@ -31,10 +31,6 @@ ul li:not(:last-child) {
   margin-bottom: 0.6em;
 }
 
-.logo {
-  border-radius: 4px;
-}
-
 .container {
   max-width: 996px;
   margin: 0 auto;
@@ -139,9 +135,10 @@ ul li:not(:last-child) {
 }
 
 .jobs img {
-  width: 5.5em;
-  height: 5.5em;
+  width: 5em;
+  height: 5em;
   margin-right: 1em;
+  border-radius: 4px;
 }
 
 .jobs h3 {

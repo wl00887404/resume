@@ -1,3 +1,6 @@
 node_modules
 not-used
 *.pdf
+
+assets/popdaily
+assets/line

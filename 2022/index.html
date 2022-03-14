@@ -4,24 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>何振志的履歷</title>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
-      integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="../../assets/photos/paper.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link
       rel="stylesheet"
       type="text/css"
-      href="assets/print.css"
+      href="./css/print.css"
       media="print"
     />
   </head>
   <body>
     <div class="container">
       <div class="flex-center">
-        <img src="assets/avatar.jpg" class="avatar" />
+        <img src="../assets/avatar.jpg" class="avatar" />
         <div class="introduction">
           <ul class="links">
             <li>
@@ -30,7 +25,7 @@
                 target="_blank"
                 ref="noopener"
               >
-                <img src="assets/facebook.svg" />
+                <img src="../assets/facebook.svg" />
               </a>
             </li>
             <li>
@@ -39,7 +34,7 @@
                 target="_blank"
                 ref="noopener"
               >
-                <img src="assets/github.svg" />
+                <img src="../assets/github.svg" />
               </a>
             </li>
             <li>
@@ -48,18 +43,14 @@
                 target="_blank"
                 ref="noopener"
               >
-                <img src="assets/codepen.svg" />
+                <img src="../assets/codepen.svg" />
               </a>
             </li>
           </ul>
           <ul class="links">
             <li>
-              <img src="assets/mail.svg" />
+              <img src="../assets/mail.svg" />
               <span>wl00887404@gmail.com</span>
-            </li>
-            <li>
-              <img src="assets/phone.svg" />
-              <span>(+886) 0932639083</span>
             </li>
           </ul>
           <h1>嗨！我是振志！</h1>
@@ -70,7 +61,7 @@
           </p>
         </div>
       </div>
-      <h2>專長技能</h2>
+      <!-- <h2>專長技能</h2>
       <div class="skills">
         <div class="skill">
           <div class="header">FrontEnd</div>
@@ -99,11 +90,28 @@
           <div>ChatBots</div>
           <div>Web Crawlers</div>
         </div>
-      </div>
+      </div> -->
       <h2>工作經驗</h2>
       <div class="jobs">
         <div class="flex-center">
-          <img src="./assets/cannerflow-logo.png" />
+          <img class="logo" src="../assets/logos/popdaily-logo.jpg" />
+          <div>
+            <h3>PopDaily - 前端工程師</h3>
+            <time>2020.06 ~ 2021.12</time>
+          </div>
+        </div>
+        <div class="description">
+          <ul>
+            <li>重構舊 EJS 系統成 React ，統一系統 UI 設計風格。</li>
+            <li>修正 Next.js SSG 造成用戶登入異常的重大漏洞。</li>
+            <li>
+              完成 SEO 部門朝思暮想的 AMP 功能，自然搜尋流量創新高，提早達到部門
+              KPI 。
+            </li>
+          </ul>
+        </div>
+        <div class="flex-center">
+          <img class="logo" src="../assets/logos/cannerflow-logo.png" />
           <div>
             <h3>Canner 易開科技 - 前端工程師</h3>
             <time>2019.11 ~ 2020.03</time>
@@ -111,8 +119,8 @@
         </div>
         <div class="description">
           <blockquote>
-            CannerFlow 以開源分散式資料處理引擎 Presto 連結數據孤島，嘗試取代
-            ETL 的所需的複雜工作與成本，並有著 Web
+            CannerFlow 以分散式資料大數據處理引擎連結數據孤島，嘗試取代 ETL
+            的所需的複雜工作與成本，並有著 Web
             介面方便非程式專業的人操作、管理資料，亦可以接上 BI 、產生報表。
           </blockquote>
           <ul>
@@ -142,7 +150,7 @@
         </div>
         <div class="page-break"></div>
         <div class="flex-center">
-          <img src="./assets/orangeapple-logo.png" />
+          <img src="./../assets/logos/orangeapple-logo.png" />
           <div>
             <h3>橘子蘋果兒童程式學苑 - 低年級講師</h3>
             <time>2019.03 ~ 2019.05</time>
@@ -190,7 +198,7 @@
           </ul>
         </div>
         <div class="flex-center">
-          <img src="./assets/alphacamp-logo.png" />
+          <img src="./../assets/logos/alphacamp-logo.png" />
           <div>
             <h3>AlphaCamp - 線上課程助教</h3>
             <time>2019.01 ~ 至今</time>
@@ -226,7 +234,7 @@
           </ul>
         </div>
         <div class="flex-center">
-          <img src="./assets/tmot-logo.png" />
+          <img src="./../assets/logos/tmot-logo.png" />
           <div>
             <h3>Tmot 集界科技 - 全端工程師</h3>
             <time>2018.02 ~ 2019.03</time>
@@ -298,7 +306,7 @@
               </a>
             </li>
           </ul>
-          <img src="assets/fedc2018.png" />
+          <img src="../assets/photos/fedc2018.png" />
         </div>
         <div>
           <h3>
@@ -325,7 +333,7 @@
               </a>
             </li>
           </ul>
-          <img src="assets/apollodata.jpg" />
+          <img src="../assets/photos/apollo-data.jpg" />
         </div>
       </div>
       <div class="page-break"></div>
@@ -355,17 +363,17 @@
               ）。
             </li>
           </ul>
-          <img src="assets/app-inventor.jpg" />
+          <img src="../assets/photos/app-inventor0.jpg" />
         </div>
         <div>
           <h3>暑期程式實作課程 <time>2017.9.11 ~ 2017.9.15</time></h3>
           <ul>
             <li>
-              利用開學前的程式營，以實作補充理論課程的不足，由學長與我自主發起，。
+              利用開學前的程式營，以實作補充理論課程的不足，由學長與我自主發起。
             </li>
             <li>自編進階 CSS 教材。</li>
           </ul>
-          <img src="assets/yee.jpg" />
+          <img src="../assets/photos/yee0.jpg" />
         </div>
         <div class="page-break"></div>
         <div>
@@ -437,10 +445,6 @@
         <tr>
           <td>姓名</td>
           <td>何振志</td>
-        </tr>
-        <tr>
-          <td>手機</td>
-          <td>(+886) 0932639083</td>
         </tr>
         <tr>
           <td>Email</td>

@@ -101,7 +101,6 @@ https://s3-ap-northeast-1.amazonaws.com/wl00887404/resume/appinventor1.jpg
 ## Contact Me
 
 何振志
-(+886) 0932639083
 wl00887404@gmail.com
 
 ## 作品
