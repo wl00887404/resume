@@ -46,19 +46,20 @@
                 <img src="../assets/codepen.svg" />
               </a>
             </li>
-          </ul>
-          <ul class="links">
             <li>
-              <img src="../assets/mail.svg" />
-              <span>wl00887404@gmail.com</span>
+              <a href="mailto:wl00887404@gmail.com">
+                <img src="../assets/mail.svg" title="wl00887404@gmail.com" />
+              </a>
             </li>
           </ul>
-          <h1>嗨！我是振志！</h1>
-          <p>
-            2018
-            畢業於國立中正大學資管系，正在尋找全端工程師的工作機會，約有四年網頁開發經驗，有強烈的教學熱誠、樂於分享，積極參與技術社群，累積了大量的
-            code review 及與新人溝通的經驗，沉浸於幫助人與解決問題的成就感。
-          </p>
+          <div>
+            <h1>嗨！我是振志！</h1>
+            <p>
+              2018
+              畢業於國立中正大學資管系，正在尋找前端工程師的工作機會，約有四年網頁開發經驗，有強烈的教學熱誠、樂於分享，積極參與技術社群，累積了大量的
+              code review 及與新人溝通的經驗，沉浸於幫助人與解決問題的成就感。
+            </p>
+          </div>
         </div>
       </div>
       <!-- <h2>專長技能</h2>
@@ -91,7 +92,24 @@
           <div>Web Crawlers</div>
         </div>
       </div> -->
-      <h2>工作經驗</h2>
+      <h2>要點整理</h2>
+      <ul>
+        <li>
+          四年 web 開發經驗，擁有優秀的架構設計能力、良好的程式撰寫風格、深厚的
+          troubleshooting 功力
+        </li>
+        <li>熟悉 React 生態系、 Next.js 、 GraphQL 、 TypeScript</li>
+        <li>深刻了解 Web Vitals 、 AMP ，熟悉 React SSG 在 SEO 該注意的細節</li>
+        <li>
+          對 UI/UX 敏感度佳，
+          <a href="https://cantunsee.space/">Can't Unsee</a> 獲得 7430 高分
+        </li>
+        <li>熟悉 Github Flow ，協作經驗豐富，樂於 Code Review 技術討論</li>
+        <li>有後端開發經驗，熟悉 Express.js 、 RMDBS 、 MongoDB</li>
+        <li>熟悉 SQL Injection 、 XSS 、CSRF 等安全性議題</li>
+        <li>Ubuntu 愛好者，使用 Ubuntu 開發超過四年</li>
+      </ul>
+      <h2>工作經歷</h2>
       <div class="jobs">
         <div class="flex-center">
           <img class="logo" src="../assets/logos/popdaily-logo.jpg" />
@@ -102,14 +120,27 @@
         </div>
         <div class="description">
           <ul>
-            <li>重構舊 EJS 系統成 React ，統一系統 UI 設計風格。</li>
-            <li>修正 Next.js SSG 造成用戶登入異常的重大漏洞。</li>
+            <li>
+              協助、廣告、 SEO 、電商等功能迭代，與 APP
+              對接登入系統、活動頁面等功能
+            </li>
+            <li>
+              大幅度 refactor legacy code 、將 EJS 舊系統重構成 React ，統一系統
+              UI 設計風格
+            </li>
+            <li>修正 React SSG 造成用戶登入異常的重大漏洞</li>
             <li>
               完成 SEO 部門朝思暮想的 AMP 功能，自然搜尋流量創新高，提早達到部門
-              KPI 。
+              KPI
+            </li>
+            <li>
+              因應 Instagram 關閉 oEmbed API 造成 Wordpress
+              編輯器無法正常運作，引導編輯人員使用 &lt;blockquote> 內嵌，並修正
+              Instagram 內嵌在 Safari 大小設置異常的問題
             </li>
           </ul>
         </div>
+        <div class="page-break"></div>
         <div class="flex-center">
           <img class="logo" src="../assets/logos/cannerflow-logo.png" />
           <div>
@@ -121,42 +152,39 @@
           <blockquote>
             CannerFlow 以分散式資料大數據處理引擎連結數據孤島，嘗試取代 ETL
             的所需的複雜工作與成本，並有著 Web
-            介面方便非程式專業的人操作、管理資料，亦可以接上 BI 、產生報表。
+            介面方便非程式專業的人操作、管理資料，亦可以接上 BI 、產生報表
           </blockquote>
           <ul>
             <li>
               以 Ant Design 作為 UI framework ，配合 React 、 styled-components
-              快速迭代開發，並保有客製化的彈性。
+              快速迭代開發，並保有客製化的彈性
             </li>
             <li>
               大幅度 refactor legacy code ，修正 typo 、以 Hooks 取代 Render
-              Props ，並簡化 Component 之間 props 的傳遞。
+              Props ，並簡化 Component 之間 props 的傳遞
             </li>
+            <li>最佳化呈現大量資料所運用的 infinite scroll ，確保使用者體驗</li>
             <li>
-              最佳化呈現大量資料所運用的 infinite scroll ，確保使用者體驗。
-            </li>
-            <li>
-              設計 Keycloak 登入界面、產品官方網站，維持產品在 UI 上的一致性。
+              設計 Keycloak 登入界面、產品官方網站，維持產品在 UI 上的一致性
             </li>
             <li>
               與後端工程師共同設計 GraphQL API ，並以 apollo-tool 產生 type
-              signature ，維持程式碼品質。
+              signature ，維持程式碼品質
             </li>
             <li>
               將公司客製化的 Presto 連上 BI ，支援 Tableau 、 Metabase 、Power
-              BI 。
+              BI
             </li>
           </ul>
         </div>
-        <div class="page-break"></div>
-        <div class="flex-center">
+        <!-- <div class="flex-center">
           <img src="./../assets/logos/orangeapple-logo.png" />
           <div>
             <h3>橘子蘋果兒童程式學苑 - 低年級講師</h3>
             <time>2019.03 ~ 2019.05</time>
           </div>
-        </div>
-        <div class="description">
+        </div> -->
+        <!-- <div class="description">
           <ul>
             <li>
               教低年級小朋友，用
@@ -167,14 +195,14 @@
               >
                 繪本
               </a>
-              學習程式概念。
+              學習程式概念
             </li>
             <li>
               協助中高年級小朋友以
               <a href="https://scratch.mit.edu/" target="_blank" ref="noopener">
                 scratch
               </a>
-              製作遊戲。
+              製作遊戲
             </li>
             <li>
               帶領小朋友一同遊
@@ -193,12 +221,12 @@
               >
                 Baba Is You
               </a>
-              等益智遊戲，培養運算思維。
+              等益智遊戲，培養運算思維
             </li>
           </ul>
-        </div>
+        </div> -->
         <div class="flex-center">
-          <img src="./../assets/logos/alphacamp-logo.png" />
+          <img class="logo" src="./../assets/logos/alphacamp-logo.png" />
           <div>
             <h3>AlphaCamp - 線上課程助教</h3>
             <time>2019.01 ~ 至今</time>
@@ -215,11 +243,10 @@
               >
                 輔導超過千位學生
               </a>
-              。
             </li>
             <li>
               主持 webinar
-              網路會議，即時對答學生的疑問，比一般線上課程更具有溫度。
+              網路會議，即時對答學生的疑問，比一般線上課程更具有溫度
             </li>
             <li>
               <a
@@ -227,14 +254,13 @@
                 target="_blank"
                 ref="noopener"
               >
-                榮獲 2019 Q&A 回覆最多助教
+                榮獲 2019 與 2020 Q&A 回覆最多助教
               </a>
-              。
             </li>
           </ul>
         </div>
         <div class="flex-center">
-          <img src="./../assets/logos/tmot-logo.png" />
+          <img class="logo" src="./../assets/logos/tmot-logo.png" />
           <div>
             <h3>Tmot 集界科技 - 全端工程師</h3>
             <time>2018.02 ~ 2019.03</time>
@@ -243,20 +269,19 @@
         <div class="description">
           <blockquote>
             Tmot
-            是一物一碼雲服務平台，每個產品都帶有唯一二維碼，透過社群媒體上掃碼的動作而讓品牌商與消費者間經過社群媒體產生互動連結，因此可達到會員管理並帶來全新的商機。
+            是一物一碼雲服務平台，每個產品都帶有唯一二維碼，透過社群媒體上掃碼的動作而讓品牌商與消費者間經過社群媒體產生互動連結，因此可達到會員管理並帶來全新的商機
           </blockquote>
           <ul>
             <li>
-              以 React 、 Next.js 、 Express.js 建構 Isomorphic JavaScript
-              環境。
+              以 React 、 Next.js 、 Express.js 建構 Isomorphic JavaScript 環境
             </li>
             <li>
               將 UI Framework 從 Semantic UI 改成 Ant Design
-              ，界面上更簡潔，程式碼更好維護。
+              ，界面上更簡潔，程式碼更好維護
             </li>
             <li>
               撰寫 GraphQL API ，提昇 PostgreSQL Query 的效率，以 Medium
-              crawlers 抓取公司最新的 showcases 。
+              crawlers 抓取公司最新的 showcases
             </li>
             <li>
               以 sharp 、 FFmpeg 處理大量影音轉檔，並架設於 AWS lambda
@@ -265,9 +290,8 @@
                 href="https://wl00887404.s3-ap-northeast-1.amazonaws.com/resume/sharp.png"
                 >此次經驗同時也解答了社群的問題</a
               >
-              。
             </li>
-            <li>教導、協助行銷人員撰寫 CSS ，做活動頁面的視覺調整。</li>
+            <li>教導、協助行銷人員撰寫 CSS ，做活動頁面的視覺調整</li>
             <li>
               撰寫 Slack 聊天機器人簡化工作流程，像是監控 SEO 結果、
               <a
@@ -277,7 +301,6 @@
               >
                 客製化會議通知
               </a>
-              。
             </li>
           </ul>
         </div>
@@ -342,7 +365,7 @@
         <h3>嘉義長庚呼吸照護系 AppInventor 班 <time>2017.9 ~ 2017.10</time></h3>
         <div>
           <ul>
-            <li>長庚教授希望能讓護理背景的同學接觸程式設計，應邀開班。</li>
+            <li>長庚教授希望能讓護理背景的同學接觸程式設計，應邀開班</li>
             <li>
               自編 app inventor 授課教材，為期兩週（
               <a
@@ -360,7 +383,7 @@
               >
                 第二週
               </a>
-              ）。
+              ）
             </li>
           </ul>
           <img src="../assets/photos/app-inventor0.jpg" />
@@ -369,9 +392,9 @@
           <h3>暑期程式實作課程 <time>2017.9.11 ~ 2017.9.15</time></h3>
           <ul>
             <li>
-              利用開學前的程式營，以實作補充理論課程的不足，由學長與我自主發起。
+              利用開學前的程式營，以實作補充理論課程的不足，由學長與我自主發起
             </li>
-            <li>自編進階 CSS 教材。</li>
+            <li>自編進階 CSS 教材</li>
           </ul>
           <img src="../assets/photos/yee0.jpg" />
         </div>
@@ -379,7 +402,7 @@
         <div>
           <h3>網頁程式設計助教 <time>2017.9 ~ 2018.1</time></h3>
           <ul>
-            <li>協助教授教學內容，課後協助學生理解重點、解決問題。</li>
+            <li>協助教授教學內容，課後協助學生理解重點、解決問題</li>
             <li>
               自編實作課教材，而外補充實用
               <a
@@ -413,7 +436,6 @@
               >
                 Git 教學
               </a>
-              。
             </li>
             <li>
               出期中考考題，並錄製
@@ -424,7 +446,7 @@
               >
                 影片
               </a>
-              講解解題思路。
+              講解解題思路
             </li>
             <li>
               <a
@@ -434,7 +456,6 @@
               >
                 榮獲 106 學年度優良助教
               </a>
-              。
             </li>
           </ul>
         </div>
@@ -448,7 +469,9 @@
         </tr>
         <tr>
           <td>Email</td>
-          <td>wl00887404@gmail.com</td>
+          <td>
+            <a href="mailto:wl00887404@gmail.com">wl00887404@gmail.com</a>
+          </td>
         </tr>
       </table>
     </div>
