@@ -1,0 +1,33 @@
+:root {
+  font-size: 14px;
+}
+
+body {
+  padding: 0 2.5em;
+}
+
+.page-break {
+  display: block;
+  page-break-before: always;
+  padding-top: 3em;
+}
+
+.container {
+  padding: 3em 0;
+}
+
+h2 {
+  padding: 0;
+}
+
+li:not(:last-child) {
+  margin-bottom: 0em;
+}
+
+/* blockquote {
+  display: none;
+} */
+
+.jobs img.logo {
+  width: 4em;
+}
